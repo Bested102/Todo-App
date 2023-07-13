@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="main.js"></script>
+</head>
+
+<body class="">
+  <main>
+    <header>
+      <h1>TODO</h1>
+      <img src="images/icon-sun.svg" alt="">
+    </header>
+    <form autocomplete="off">
+      <div></div>
+      <input type="text" name="newTask" placeholder="Create a new todo...">
+    </form>
+    <div class="main">
+      <ul class="tasks">
+      </ul>
+      <div class="controls">
+        <div class="left">
+          <span>0</span>
+          items left
+        </div>
+        <div class="filter">
+          <span class="all select">All</span>
+          <span class="active">Active</span>
+          <span class="complete">Completed</span>
+        </div>
+        <span class="clear">Clear Completed</span>
+      </div>
+    </div>
+    <p class="tip">
+      Drag and drop to reorder list
+    </p>
+  </main>
+</body>
+
+</html>
